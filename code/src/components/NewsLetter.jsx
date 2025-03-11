@@ -33,7 +33,7 @@ const NewsLetter = () => {
                   <IoMailOutline className='mail-icon' />
                   <input type="text" placeholder='Your email address' onChange={(e)=> setEmail(e.target.value)} value={email} />
               </span>
-              <button onClick={handleSubscribe}>Subscribe</button>
+              <button onClick={handleSubscribe}>Subscribe to Araha</button>
             </div>
         {subscribe && 
             <p>Thanks for subscribing!!</p>
