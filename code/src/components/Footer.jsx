@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className='footer'>
 
-        <h3>SB Recipess...</h3>
+        <h3>Araha Cookbook</h3>
 
         <div className="footer-options">
           <ul>
@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
 
         <hr />
-        <p>SB Recipiess - &copy; 2023 - All Rights Reserved</p>
+        <p>Araha cookbook - &copy; 2023 - All Rights Reserved</p>
     </div>
   )
 }
